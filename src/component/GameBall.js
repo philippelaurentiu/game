@@ -9,7 +9,8 @@ class GameBall extends Component {
   render() {
     const position = {
       top: this.props.posY + 'px',
-      left: this.props.posX +'px'
+      left: this.props.posX +'px',
+      backgroundColor: this.props.color
     };
 
     return (

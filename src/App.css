@@ -1,10 +1,11 @@
+
 .App {
   text-align: center;
 }
 
 .GameBord {
-  width: 800px;
-  height: 400px;
+  width: 100%;
+  height: 100vh;
   margin: auto;
   background-color: lightsteelblue;
 }
@@ -14,4 +15,14 @@
   height: 50px;
   background-color: plum;
   position: relative;
+  border-radius: 50%;
 }
+
+.Title{
+  color: #3a1e3d;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size:75px;
+  background-color: lightsteelblue;
+}
+
+
