@@ -6,6 +6,7 @@ import GameBord from "./component/GameBord";
 function App() {
   return (
     <div className="App">
+      hallo
      <GameBord />
     </div>
   );
