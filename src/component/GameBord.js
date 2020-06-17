@@ -4,10 +4,9 @@ import GameBall from "./GameBall";
 class GameBord extends Component {
 
 
-
   render() {
-
-    return (
+    let x=Math.random();
+    return
       <div className={'GameBord'}>
         <GameBall posX={600} posY={200} color={"red"}/>
       </div>
