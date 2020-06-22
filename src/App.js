@@ -1,17 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import GameBord from "./component/GameBord";
-import Knoepfe from "./component/Knoepfe";
+import Game from "./component/Game";
+
 
 function App() {
     return (
         <div className="App">
-            <Knoepfe/>
-            {/*<GameBord/>*/}
+           <Game/>
         </div>
-
     );
 }
+
 
 export default App;

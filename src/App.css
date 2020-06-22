@@ -35,6 +35,7 @@
           0 10px 10px hsl(265,20%,52%),
           0 15px 15px hsl(265,20%,50%);
   font-size: 100px;
+    text-decoration: underline;
 }
 
 
@@ -44,130 +45,35 @@
   margin: auto;
   background-color: #303030;
 }
- /*!*.Startknopf{*!*/
- /*  width: 200px;*/
- /*  height: 100px;*/
- /*  background-color: #303030;;*/
- /*  box-shadow:*/
- /*          0 1px 0 hsl(265,40%,60%),*/
- /*          0 1px 0 hsl(265,40%,58%),*/
- /*          0 3px 0 hsl(265,40%,56%),*/
- /*          0 4px 0 hsl(265,40%,54%),*/
- /*          0 5px 0 hsl(265,40%,52%),*/
- /*          0 6px 1px hsl(265,40%,50%),*/
- /*          0 0 5px hsl(265,20%,60%),*/
- /*          0 1px 3px hsl(265,20%,58%),*/
- /*          0 3px 5px hsl(265,20%,56%),*/
- /*          0 5px 10px hsl(265,20%,54%),*/
- /*          0 10px 10px hsl(265,20%,52%),*/
- /*          0 15px 15px hsl(265,20%,50%);*/
- /*}*/
-
- .Start{
-   color: hsl(265,70%,70%);
-   text-shadow:
-           0 1px 0 hsl(265,40%,60%),
-           0 1px 0 hsl(265,40%,58%),
-           0 3px 0 hsl(265,40%,56%),
-           0 4px 0 hsl(265,40%,54%),
-           0 5px 0 hsl(265,40%,52%),
-           0 6px 1px hsl(265,40%,50%),
-           0 0 5px hsl(265,20%,60%),
-           0 1px 3px hsl(265,20%,58%),
-           0 3px 5px hsl(265,20%,56%),
-           0 5px 10px hsl(265,20%,54%),
-           0 10px 10px hsl(265,20%,52%),
-           0 15px 15px hsl(265,20%,50%);
-   font-size: 65px;
- }
 
  .Startknopf:hover{
 background-color: black;
  }
 
-/*.Endeknopf{*/
-/*  width: 200px;*/
-/*  height: 100px;*/
-/*  background-color: #303030;;*/
-/*  box-shadow:*/
-/*          0 1px 0 hsl(265,40%,60%),*/
-/*          0 1px 0 hsl(265,40%,58%),*/
-/*          0 3px 0 hsl(265,40%,56%),*/
-/*          0 4px 0 hsl(265,40%,54%),*/
-/*          0 5px 0 hsl(265,40%,52%),*/
-/*          0 6px 1px hsl(265,40%,50%),*/
-/*          0 0 5px hsl(265,20%,60%),*/
-/*          0 1px 3px hsl(265,20%,58%),*/
-/*          0 3px 5px hsl(265,20%,56%),*/
-/*          0 5px 10px hsl(265,20%,54%),*/
-/*          0 10px 10px hsl(265,20%,52%),*/
-/*          0 15px 15px hsl(265,20%,50%);*/
-
-/*}*/
-
-.Ende{
-
-  color: hsl(265,70%,70%);
-  text-shadow:
-          0 1px 0 hsl(265,40%,60%),
-          0 1px 0 hsl(265,40%,58%),
-          0 3px 0 hsl(265,40%,56%),
-          0 4px 0 hsl(265,40%,54%),
-          0 5px 0 hsl(265,40%,52%),
-          0 6px 1px hsl(265,40%,50%),
-          0 0 5px hsl(265,20%,60%),
-          0 1px 3px hsl(265,20%,58%),
-          0 3px 5px hsl(265,20%,56%),
-          0 5px 10px hsl(265,20%,54%),
-          0 10px 10px hsl(265,20%,52%),
-          0 15px 15px hsl(265,20%,50%);
-  font-size: 65px;
+.Startknopf {
+    width: 75%;
+    margin: 0 auto;
+    height: 125px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    margin-top:100px;
+    font-size: 9.5vw;
 }
 
-.Endeknopf:hover{
-  background-color: black;
+.textstyle{
+    color: hsl(265,70%,70%);
+    text-shadow:
+            0 1px 0 hsl(265,40%,60%),
+            0 1px 0 hsl(265,40%,58%),
+            0 3px 0 hsl(265,40%,56%),
+            0 4px 0 hsl(265,40%,54%),
+            0 5px 0 hsl(265,40%,52%),
+            0 6px 1px hsl(265,40%,50%),
+            0 0 5px hsl(265,20%,60%),
+            0 1px 3px hsl(265,20%,58%),
+            0 3px 5px hsl(265,20%,56%),
+            0 5px 10px hsl(265,20%,54%),
+            0 10px 10px hsl(265,20%,52%),
+            0 15px 15px hsl(265,20%,50%);
 }
-
-/*.Scoreknopf{*/
-/*  width: 200px;*/
-/*  height: 100px;*/
-/*  background-color: #303030;;*/
-/*  box-shadow:*/
-/*          0 1px 0 hsl(265,40%,60%),*/
-/*          0 1px 0 hsl(265,40%,58%),*/
-/*          0 3px 0 hsl(265,40%,56%),*/
-/*          0 4px 0 hsl(265,40%,54%),*/
-/*          0 5px 0 hsl(265,40%,52%),*/
-/*          0 6px 1px hsl(265,40%,50%),*/
-/*          0 0 5px hsl(265,20%,60%),*/
-/*          0 1px 3px hsl(265,20%,58%),*/
-/*          0 3px 5px hsl(265,20%,56%),*/
-/*          0 5px 10px hsl(265,20%,54%),*/
-/*          0 10px 10px hsl(265,20%,52%),*/
-/*          0 15px 15px hsl(265,20%,50%);*/
-
-/*}*/
-
-.Scoreboard{
-
-  color: hsl(265,70%,70%);
-  text-shadow:
-          0 1px 0 hsl(265,40%,60%),
-          0 1px 0 hsl(265,40%,58%),
-          0 3px 0 hsl(265,40%,56%),
-          0 4px 0 hsl(265,40%,54%),
-          0 5px 0 hsl(265,40%,52%),
-          0 6px 1px hsl(265,40%,50%),
-          0 0 5px hsl(265,20%,60%),
-          0 1px 3px hsl(265,20%,58%),
-          0 3px 5px hsl(265,20%,56%),
-          0 5px 10px hsl(265,20%,54%),
-          0 10px 10px hsl(265,20%,52%),
-          0 15px 15px hsl(265,20%,50%);
-  font-size: 35px;
-}
-
-.Scoreknopf:hover{
-  background-color: black;
-}
-

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import GameBall from "./GameBall";
 
-class GameBord extends Component {
+class GameBoard extends Component {
 
     render() {
         return (
@@ -18,4 +18,4 @@ class GameBord extends Component {
 
 }
 
-export default GameBord
+export default GameBoard

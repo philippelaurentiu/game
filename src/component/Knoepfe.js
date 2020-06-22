@@ -1,50 +1,34 @@
 import React, {Component} from 'react';
 
-
 class Knoepfe extends Component {
 
+    render() {
+        return (
 
-
-        handleClick()
-        {
-            console.log('Start');
-        }
-
-
-        render()
-        {
-            return (
-
-                <div>
-                    <div className={'Knoepfe'}>
-                        <div className="Title">
-                            The Circle Game
-                        </div>
-                        <div className={'Startknopf'}>
-
-                            <p className={"Start"}>
-                                Start
-                            </p>
-                        </div>
-
-                        <div className={'Endeknopf'}>
-                            <p className={"Ende"}>
-                                Ende
-                            </p>
-                        </div>
-
-                        <div className={'Scoreknopf'}>
-                            <p className={"Scoreboard"}>
-                                Scoreboard
-                            </p>
-                        </div>
+            <div>
+                <div className={'Knoepfe'}>
+                    <div className="Title">
+                        The Circle Game
                     </div>
+
+                    <div className={'Startknopf textstyle'} onClick={() => this.props.onClick1()}>
+                        Start
+                    </div>
+
+                    <div className={'Startknopf textstyle'} onClick={() => this.props.onClick2()}>
+                        Ende
+                    </div>
+
+                    <div className={'Startknopf textstyle'} onClick={() => this.props.onClick3()}>
+                        Scoreboard
+                    </div>
+
                 </div>
+            </div>
 
-            );
-        }
+        );
     }
+}
 
 
-
-    export default Knoepfe
+export default Knoepfe
