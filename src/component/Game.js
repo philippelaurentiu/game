@@ -33,10 +33,19 @@ class Game extends Component{
                  <Knoepfe onClick1={this.handleClick} onClick2={this.handleClick2}/>
              );
          }
+        this.GameOver();
          return (
              <GameBoard/>
          );
      }
+     GameOver() {
+        setTimeout(() => {
+            this.setState(
+                {
+                    showboard: true
+                });
+        }, 5000);
+    }
 
 }
 export default Game;
