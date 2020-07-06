@@ -4,15 +4,19 @@ class GameBall extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {delete: false};
-        this.removeBall2 = this.removeBall2.bind(this);
+        this.state = {
+            score: 0,
+            delete: false
+        };
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick() {
         this.setState({
+            score: this.state.score + 1,
             delete: true
         });
+        this.props.handleBall();
     }
 
     render() {
@@ -24,7 +28,6 @@ class GameBall extends Component {
         let y = (Math.random() * (max2 - min2)) + min2;
         let number = parseInt(x, 10) + 1;
         let number2 = parseInt(y, 10) + 1;
-        console.log(window.innerWidth)
 
         const position = {
             top: number2 + 'px',
@@ -33,30 +36,11 @@ class GameBall extends Component {
         };
 
 
-        // this.removeBall();
         return (
             <div style={position} className={'GameBall'} onClick={this.handleClick}></div>
         );
 
     }
-
-    removeBall() {
-        setTimeout(() => {
-            this.setState(
-                {
-                    delete: true
-                });
-        }, 5000);
-    }
-
-    removeBall2() {
-        this.setState(
-            {
-                delete: true
-            });
-
-    }
-    ;
 
 }
 

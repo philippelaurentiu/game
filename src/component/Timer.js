@@ -5,7 +5,7 @@ class Timer extends Component {
     constructor(props){
         super(props);
         this.state = {
-            time: 5,
+            time: props.startTime,
             start: Date.now(),
             isOn: false
         };
@@ -18,9 +18,7 @@ class Timer extends Component {
         }
 
         return (
-          <div>
-              <h3>timer: {(this.state.time)}</h3>
-          </div>
+          <div className={'textstyle normalText'}> timer: {(this.state.time)}</div>
         );
     }
 

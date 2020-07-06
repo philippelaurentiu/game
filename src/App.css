@@ -1,7 +1,6 @@
 
 .App {
   text-align: center;
-   align: center;
 }
 
 .GameBord {
@@ -9,6 +8,13 @@
   height: 100vh;
   margin: auto;
   background-color: lightsteelblue;
+}
+
+.ScoreBord {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #303030;
 }
 
 .GameBall {
@@ -47,8 +53,12 @@
 }
 
  .Startknopf:hover{
-background-color: black;
+     color: hsl(318, 100%, 21%);
  }
+
+.Startknopf:active{
+    color: hsl(316, 100%, 50%);
+}
 
 .Startknopf {
     width: 75%;
@@ -76,4 +86,8 @@ background-color: black;
             0 5px 10px hsl(265,20%,54%),
             0 10px 10px hsl(265,20%,52%),
             0 15px 15px hsl(265,20%,50%);
+}
+
+.normalText {
+    font-size: 3vw;
 }

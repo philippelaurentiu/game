@@ -3,16 +3,16 @@ import GameBall from "./GameBall";
 import Timer from "./Timer";
 
 class GameBoard extends Component {
+  constructor(props) {
+    super(props);
+  }
 
     render() {
         return (
           <div>
               <div className={'GameBord'}>
-                  <div className="Title">
-                      The Circle Game
-                  </div>
-                  <Timer startTime={5}/>
-                  <GameBall/>
+                  <Timer startTime={10}/>
+                  <GameBall handleBall={this.props.handleBall}/>
               </div>
           </div>
         );
