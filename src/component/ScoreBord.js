@@ -17,7 +17,11 @@ class ScoreBord extends Component {
     return (
       <div className={'ScoreBord'}>
         <div className={'textstyle normalText'}>Scores</div>
+        <br/>
+        <br/>
         {items}
+        <br/>
+        <br/>
         <div className={'textstyle normalText'} onClick={() => this.props.onBack()}>Zurück</div>
       </div>
     );

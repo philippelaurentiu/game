@@ -7,16 +7,16 @@ class GameBoard extends Component {
     super(props);
   }
 
-    render() {
-        return (
-          <div>
-              <div className={'GameBord'}>
-                  <Timer startTime={10}/>
-                  <GameBall handleBall={this.props.handleBall}/>
-              </div>
-          </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <div className={'GameBord'}>
+          <Timer startTime={10}/>
+          <GameBall handleBall={this.props.handleBall}/>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default GameBoard
