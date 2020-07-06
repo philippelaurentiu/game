@@ -11,7 +11,7 @@ class GameBoard extends Component {
                   <div className="Title">
                       The Circle Game
                   </div>
-                  <Timer/>
+                  <Timer startTime={5}/>
                   <GameBall/>
               </div>
           </div>
